@@ -21,6 +21,7 @@
     "mathjax-node-svg2png": "^2.0.0"
   },
   "engines": {
-    "node": "v8.9.x"
+    "node": "v8.9.x",
+    "npm": "5.6.x"
   }
 }
