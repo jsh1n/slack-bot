@@ -24,8 +24,8 @@ module.exports = function (robot) {
 		}, function (data) {
 			if (!data.errors) {
 				var base64 = data.png.replace(/^data:image\/png;base64,/, "");
-				fs.writeFileSync("resource/math.png", base64, 'base64');
-				var filename = 'resource/math.png';
+				fs.writeFileSync("math.png", base64, 'base64');
+				var filename = 'math.png';
 				var channel = res.message.rawMessage.channel;
 				exec(`curl -F file=@${filename} -F channels=${channel} -F token=${process.env.HUBOT_SLACK_TOKEN} https://slack.com/api/files.upload`, (err, stdout, stderr) => {
 					if (err) { console.log(err); }
