@@ -5,6 +5,7 @@
   "author": "tiuuuupj",
   "description": "everyone's idol",
   "dependencies": {
+    "ajv": "^6.5.2",
     "coffee-script": "^1.12.7",
     "eslint": "^5.3.0",
     "hubot": "^3.1.1",
