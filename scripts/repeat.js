@@ -1,7 +1,7 @@
 // Description:
 //   HelloWorld
 
-var rm = require('../lib/removeHeader.js');
+var rm = require('../src/removeHeader.js');
 
 module.exports = function (robot) {
   robot.hear(/repeat;/i, res => {

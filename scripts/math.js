@@ -3,7 +3,7 @@
 
 var mathJax = require('mathjax-node-svg2png');
 var fs = require("fs");
-var rm = require('../lib/removeHeader.js');
+var rm = require('../src/removeHeader.js');
 var exec = require('child_process').exec;
 
 
