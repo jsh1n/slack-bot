@@ -3,8 +3,6 @@
 set -e
 
 npm install
-# TODO: remove token export when deploy
-export HUBOT_SLACK_TOKEN=xoxb-217250785110-412382929700-tPKsJERzQ3HoG2IUPK1ka3lh
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
 exec node_modules/.bin/hubot --name "slack-bot" "$@"
