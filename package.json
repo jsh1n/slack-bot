@@ -5,6 +5,8 @@
   "author": "tiuuuupj",
   "description": "everyone's idol",
   "dependencies": {
+    "coffee-script": "^1.12.7",
+    "eslint": "^5.3.0",
     "hubot": "^3.1.1",
     "hubot-diagnostics": "0.0.2",
     "hubot-google-images": "^0.2.7",
