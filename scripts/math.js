@@ -33,7 +33,6 @@ module.exports = function (robot) {
 				});
 			} else {
 				res.send(JSON.stringify(data.errors));
-				res.send("ちゃんとしたTeXをおくってよ");
 			}
 		});
 	})
