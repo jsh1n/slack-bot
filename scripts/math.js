@@ -32,7 +32,8 @@ module.exports = function (robot) {
 					console.log(stdout);
 				});
 			} else {
-				res.send(data.errors);
+				res.send(JSON.stringify(data.errors));
+				res.send("ちゃんとしたTeXをおくってよ");
 			}
 		});
 	})
