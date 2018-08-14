@@ -31,6 +31,8 @@ module.exports = function (robot) {
 					if (err) { console.log(err); }
 					console.log(stdout);
 				});
+			} else {
+				res.send(data.errors);
 			}
 		});
 	})
